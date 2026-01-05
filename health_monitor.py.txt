@@ -6,11 +6,12 @@ length = len(readings)
  
 while i < length:
        if readings[i] >= 126:
-        print(f"Reading {readings[i]}: High Risk")
+        print(f"Reading {readings[i]}: Very High Risk")
     else:
         print(f"Reading {readings[i]}: Normal")
     
        i = i + 2
 
 print("Health risk analysis completed.")
+
 
