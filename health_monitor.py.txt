@@ -10,6 +10,7 @@ while i < length:
     else:
         print(f"Reading {readings[i]}: Normal")
     
-       i = i + 1
+       i = i + 2
 
 print("Health risk analysis completed.")
+
