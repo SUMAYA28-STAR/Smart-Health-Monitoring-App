@@ -1,0 +1,15 @@
+readings = [120, 130, 140, 110, 125]
+
+i = 0
+length = len(readings)
+
+ 
+while i < length:
+       if readings[i] >= 126:
+        print(f"Reading {readings[i]}: High Risk")
+    else:
+        print(f"Reading {readings[i]}: Normal")
+    
+       i = i + 1
+
+print("Health risk analysis completed.")
