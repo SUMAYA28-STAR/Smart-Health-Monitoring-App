@@ -1,6 +1,5 @@
-# Smart-Health-Monitoring-App
 # Original
-i = i + 1
+print("High Risk")
 
 # Modified
-i = i + 2
+print("Very High Risk")
